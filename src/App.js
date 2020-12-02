@@ -6,6 +6,7 @@ import MyCarousel from './components/my-carousel/mycarousel.component'
 import TitleMessage from './components/title-message/title-message.component'
 import AboutMe from './pages/about/about.component'
 import Skills from './pages/skills/skills.component'
+import Internships from './pages/internships/internship.component'
 
 import './App.css';
 
@@ -17,6 +18,7 @@ const App = () => {
       <TitleMessage/>
       <AboutMe/>
       <Skills/>
+      <Internships/>
     </div>
   );
 }
