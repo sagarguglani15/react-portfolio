@@ -7,6 +7,7 @@ const Skills = () => {
     return (
         <div id="skills">
             <h1 className="text-center font-details-b">TECH SKILLS</h1>
+            <hr/>
             <div className="skills-container-main">
                 <div className="skills-container-left skills-container focus">
                     <div className="skills-title">FrontEnd</div>

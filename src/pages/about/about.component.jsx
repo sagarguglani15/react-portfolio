@@ -6,7 +6,8 @@ import './about.style.scss'
 const About = () => {
     return (
         <div id="about">
-            <h1 className="about-heading">About Me</h1>
+            <h1 className="font-details-b">ABOUT ME</h1>
+            <hr></hr>
             <div className="about-container">
                 <div className="about-left">
                     <img className="about-image" src={MyPhoto} alt="My Photograph" />
@@ -32,7 +33,7 @@ const About = () => {
                     <ul className="about-buttons">
                         <li className="about-buttons-li"><a href="https://drive.google.com/file/d/1KQ1KQCHh0FdCmfepl4JO5ckGLbV6_Jeo/view?usp=sharing"
                             target="_blank" rel="noopener noreferrer">My Resume</a></li>
-                        <li className="about-buttons-li"><a href="" target="_blank" rel="noopener noreferrer">Lets talk!</a></li>
+                        <li className="about-buttons-li"><a href="#contact" target="_blank" rel="noopener noreferrer">Lets talk!</a></li>
                         <li className="about-buttons-li"><a href="https://github.com/sagarguglani15" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                         <li className="about-buttons-li"><a href="https://www.linkedin.com/in/sagar-guglani/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </ul>

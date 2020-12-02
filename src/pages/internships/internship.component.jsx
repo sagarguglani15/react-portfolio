@@ -9,6 +9,7 @@ const Internship = () => {
         <div id="internship" className="internship">
 
             <h1 className="text-center font-details-b">INTERNSHIPS</h1>
+            <hr/>
             <div className="internship-container-main">
                 {internships.map((internship, index) => (
 

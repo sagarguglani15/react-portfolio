@@ -7,6 +7,8 @@ import TitleMessage from './components/title-message/title-message.component'
 import AboutMe from './pages/about/about.component'
 import Skills from './pages/skills/skills.component'
 import Internships from './pages/internships/internship.component'
+import Contact from './pages/contact/contact.component'
+import Footer from './components/footer/footer.component'
 
 import './App.css';
 
@@ -14,11 +16,16 @@ const App = () => {
   return (
     <div className="App">
       <MyNavbar />
-      <MyCarousel/>
-      <TitleMessage/>
-      <AboutMe/>
-      <Skills/>
-      <Internships/>
+      <MyCarousel />
+      <a href="#about">
+        <div class="scroll-down"></div>
+      </a>
+      <TitleMessage />
+      <AboutMe />
+      <Skills />
+      <Internships />
+      <Contact />
+      <Footer />
     </div>
   );
 }
