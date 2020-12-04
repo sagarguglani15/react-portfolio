@@ -22,7 +22,7 @@ const About = () => {
                                     <li>E-commerce CRUD APIs with JWT auth, Bcrypt encryption, JOI payload validations, Sequelize(MySQL), Redis Cache</li>
                                 </ol>
                             </li>
-                            <li>Pure Javascript Game: 2D Breakout https://sagarguglani15.github.io/BreakOut</li>
+                            <li>Pure Javascript Game: 2D Breakout: <a style={{color:"#0000ff"}} href="https://sagarguglani15.github.io/BreakOut/" target="_blank" rel="noopener noreferrer"> Click to play!</a></li>
                             <li>OpenCV Python3 projects: face detection based attendance automation system</li>
                             <li>Tkinter GUI games, Python3: SnakeFood, Hangman, FlappyBird</li>
                             <li>Twitter Sentiments Analysis: using Tweepy library(collecting tweets) and TextBlob to get -ve, 0, +ve sentiments behind tweets, Matplotlib, Pyplot for data visualization, Pandas Dataframes</li>
