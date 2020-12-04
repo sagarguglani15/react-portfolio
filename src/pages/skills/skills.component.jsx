@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './skills.style.scss'
-import { skills } from './skills'
+import { skills } from './skills-data'
 
 const Skills = () => {
     return (

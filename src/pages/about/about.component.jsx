@@ -6,7 +6,7 @@ import './about.style.scss'
 const About = () => {
     return (
         <div id="about">
-            <h1 className="font-details-b">ABOUT ME</h1>
+            <h1 className="text-center font-details-b">ABOUT ME</h1>
             <hr></hr>
             <div className="about-container">
                 <div className="about-left">
