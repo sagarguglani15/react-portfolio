@@ -1,5 +1,5 @@
 .logo {
-    width: 25%;
+    width:5rem;
   }
   
   .nav-theme {
@@ -20,3 +20,7 @@
       transform: translateY(0rem);
     }
   }
+
+  /* a.navbar-brand{
+    width:25%;
+  } */
