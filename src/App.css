@@ -1,0 +1,10 @@
+.App{
+    background-image: url(../src/assets/img/profile/background.jpg);
+/* background-image: linear-gradient(-200deg,#010f2a,#062e4b 48%,#0c0858); */
+}
+
+hr{
+    border: 1px solid;
+    width: 55%;
+}
+  
